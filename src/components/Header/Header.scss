@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--ml-yellow);
+}
+
+.header__logo {
+  background: url('~assets/Logo_ML_large_plus.png') no-repeat;
+  width: 18rem;
+  height: 100%;
+  font-size: 0;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.header__content {
+  width: 80%;
+  max-width: 120rem;
+  margin: 0 auto;
+  height: var(--header-height);
+  display: flex;
+  padding: 0.8rem;
+  box-sizing: border-box;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .header__logo {
+    background: url('~assets/Logo_ML@2x.png') no-repeat;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__logo {
+    background: url('~assets/Logo_ML.png') no-repeat;
+    width: 5.4rem;
+    background-size: 4.6rem;
+  }
+}

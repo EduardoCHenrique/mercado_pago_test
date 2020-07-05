@@ -1,0 +1,13 @@
+@mixin button-style() {
+  cursor: pointer;
+  border: none;
+}
+  
+@mixin inner-content () {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: .6rem;
+  padding: 3rem;
+  box-sizing: border-box;
+}

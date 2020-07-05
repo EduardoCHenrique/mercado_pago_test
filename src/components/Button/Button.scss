@@ -1,0 +1,14 @@
+@import 'src/styles/mixins';
+
+.button {
+  border-radius: .6rem;
+  background-color: var(--button-color);
+  color: white;
+  display: block;
+  @include button-style();
+
+  &--medium {
+    padding: 12px 24px;
+    font-size: 1.4rem;
+  }
+}

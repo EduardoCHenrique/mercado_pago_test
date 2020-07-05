@@ -1,0 +1,6 @@
+{
+  "name": "ErrorBoundaryState",
+  "private": true,
+  "main": "./ErrorBoundary.state.js"
+}
+

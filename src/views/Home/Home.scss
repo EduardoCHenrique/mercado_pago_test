@@ -1,0 +1,20 @@
+.home {
+  padding: 3rem 0;
+  height: calc(100% - var(--header-height));
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.home__content {
+  background-color: var(--bg-color);
+}
+
+.home__loader {
+  margin: 0 auto;
+}
+
+.home--loading, .home--empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

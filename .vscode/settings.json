@@ -1,0 +1,5 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "prettier.printWidth": 120
+}

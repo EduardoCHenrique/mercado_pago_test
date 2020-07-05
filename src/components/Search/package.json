@@ -1,0 +1,5 @@
+{
+  "name": "Search",
+  "private": true,
+  "main": "./Search.state.js"
+}

@@ -1,0 +1,20 @@
+:root {
+  --header-height: 5.4rem;
+
+  //Color
+  --divider: #e6e6e6;
+  --ml-yellow: #fff059;
+  --border-color: #ccc;
+  --primary-text-color: #333;
+  --secondary-text-color: #666;
+  --icon-fill: #666;
+  --bg-color: #f6f6f6;
+  --button-color: #3483fa
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --header-height: 4.8rem;
+    --divider: #e6e6e6;
+  }
+}

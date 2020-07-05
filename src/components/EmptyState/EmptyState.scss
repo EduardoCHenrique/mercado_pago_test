@@ -1,0 +1,19 @@
+.empty-state {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-state__icon {
+  font-size: 10rem;
+  transform: rotate(90deg);
+  width: 11rem;
+  margin: 0;
+  color: var(--primary-text-color);
+}
+
+.empty-state__text {
+  font-size: 1.6rem;
+  color: var(--primary-text-color);
+}

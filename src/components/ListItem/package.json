@@ -1,0 +1,5 @@
+{
+  "name": "ListItem",
+  "private": true,
+  "main": "./ListItem.js"
+}
