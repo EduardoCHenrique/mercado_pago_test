@@ -30,6 +30,10 @@
   flex: 1 1 65%;
   text-align: center;
   height: 38rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-detail__img {

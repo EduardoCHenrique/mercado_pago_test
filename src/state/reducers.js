@@ -1,10 +1,10 @@
 import constants from './constants';
 
-const { SEARCH_FOCUS } = constants;
+const { SEARCH_FOCUS, INPUT_TEXT } = constants;
 
 const initialState = {
   focus: false,
-  search: '',
+  inputText: ''
 };
 
 function reducers(state = initialState, action) {
@@ -12,7 +12,13 @@ function reducers(state = initialState, action) {
     case SEARCH_FOCUS:
       return {
         ...state,
-        focus: action.focus,
+        focus: action.focus ? action.focus : !state.focus
+      };
+
+    case INPUT_TEXT:
+      return {
+        ...state,
+        inputText: action.text
       };
     default:
       return state;

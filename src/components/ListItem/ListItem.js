@@ -27,7 +27,7 @@ ListItem.propTypes = {
   price: PropTypes.number.isRequired,
   picture: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  free_shipping: PropTypes.string.isRequired,
+  free_shipping: PropTypes.bool.isRequired,
 }
 
 export default ListItem

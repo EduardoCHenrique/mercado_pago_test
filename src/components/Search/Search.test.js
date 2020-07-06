@@ -9,7 +9,8 @@ describe('Search Component', () => {
   const props = {
     handleChange: stub(), 
     search: stub(),
-    handleSearch: stub()
+    handleSearch: stub(),
+    onFocus: stub()
   }
 
   const wrapper = shallow(<Search {...props} />)
@@ -20,16 +21,6 @@ describe('Search Component', () => {
 
   it('should render an input', () => {
     expect(wrapper.find('.search__input')).to.have.length(1)
-  })
-
-  it('should render and input passing handleChange, value and onKeyDown props ', () => {
-    expect(wrapper.find('.search__input').props().onChange).to.equal(props.handleChange)
-    expect(wrapper.find('.search__input').props().value).to.equal(props.search)
-  })
-
-  it('should call handleSearch method with props', () => {
-    wrapper.find('.search__button').simulate('click')
-    assert.calledOnce(props.handleSearch)    
   })
 
   it('should call handleChange when changing input value manualy', () => {

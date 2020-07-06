@@ -1,0 +1,11 @@
+.search-list-item {
+  background-color: var(--search-color);
+  font-size: 1.6rem;
+  padding: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--button-color);
+    color: var(--search-color);
+  }
+}

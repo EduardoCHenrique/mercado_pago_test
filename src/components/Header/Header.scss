@@ -4,6 +4,8 @@
   width: 100%;
   height: var(--header-height);
   background-color: var(--ml-yellow);
+  position: relative;
+  z-index: 10;
 }
 
 .header__logo {

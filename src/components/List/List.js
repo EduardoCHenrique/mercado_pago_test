@@ -13,7 +13,15 @@ const List = (props) => {
 };
 
 List.propTypes = {
-  products: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string, PropTypes.number)),
+  products: PropTypes.arrayOf(
+    PropTypes.shape({
+      description: PropTypes.string,
+      picture: PropTypes.string,
+      price: PropTypes.number,
+      sold_quantity: PropTypes.number,
+      title: PropTypes.string,
+    })
+  ),
 };
 
 List.defaultProps = {

@@ -72,6 +72,10 @@
                 [
                     "business",
                     "./src/business"
+                ],
+                [
+                    "utils",
+                    "./src/utils"
                 ]
             ]
         }
